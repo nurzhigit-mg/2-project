@@ -47,7 +47,7 @@ const Acardion = () => {
                          ))
                      }
                      <hr className="item-line" style={{
-                         marginRight: "30px",
+                         marginRight: "31px",
                      }}/>
                  </div>
              </div>
