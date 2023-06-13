@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&family=Shalimar&display=swap');
+#hero {
+  .container {
+    width: 1200px;
+    margin: 0 auto;
+  }
+  .book1 {
+    position: absolute;
+    top: 146px;
+    left: 268px;
+  }
+  .book2{
+    position: absolute;
+    top: 40px;
+    right: 64px;
+  }
+  .book3{
+    position: absolute;
+    top: 649px;
+    left: 0;
+  }
+}
+.book4{
+  position: absolute;
+  right: 36px;
+  top: 637px;
+}
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  &--title {
+    padding-top: 142px;
+    h1{
+      font-family: 'Montserrat', sans-serif;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 40px;
+      line-height: 49px;
+      color: #FFFFFF;
+    }
+    p{
+      font-family: 'Montserrat', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 29px;
+      color: #FFFFFF;
+    }
+    button {
+      font-family: 'Roboto', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      color: #595FEB;
+      width: 176px;
+      height: 44px;
+      background: #FFFFFF;
+      border-radius: 10px;
+      border:none ;
+      cursor: pointer;
+      transition: .5s ease-in-out;
+    }
+    button:hover {
+      transform: scale(1.1);
+      background: transparent;
+      border: 1px solid white;
+      color: white;
+    }
+  }
+  img {
+    margin-top: 142px;
+  }
+}

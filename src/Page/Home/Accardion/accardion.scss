@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+.accordion-block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1080px;
+  margin-left: 195px;
+}
+#accordion h1 {
+  font-family: 'Montserrat',sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+  color: #FFFFFF;
+  margin: 0 auto;
+  padding-bottom: 40px;
+}
+
+.accordion {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 643px;
+}
+.title{
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  justify-content: space-between;
+}
+.title h2 {
+  width: 646px;
+  height: 60px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 39px;
+  color: #FFFFFF;
+}
+
+.accardion-icons {
+  font-weight: 400;
+  font-size: 32px;
+  color: #FFFFFF;
+}
+.item-line {
+  width: 646px;
+  height: 1px;
+  color: white;
+  background: white;
+  margin: 15px 0;
+}
+.content {
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.01s  cubic-bezier(0,1,0,1);
+}
+.content.show {
+  height: auto;
+  max-height: 9999px;
+  transition: all 0.01s cubic-bezier(1,0,1,0);
+  color: white;
+  width: 631px;
+  opacity: 90%;
+  font-size: 20.3px;
+  padding-left: 12px;
+  padding-top: 15px;
+}

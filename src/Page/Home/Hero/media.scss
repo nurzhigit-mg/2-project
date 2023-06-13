@@ -1,0 +1,90 @@
+@media (max-width: 1440px) {
+
+}
+
+@media (max-width: 1200px) {
+
+}
+@media  (max-width: 1024px){
+  .hero--title h1 {
+    font-size: 35px;
+  }
+  .hero--title p {
+    font-size: 20px;
+  }
+}
+@media  (max-width: 992px){
+
+}
+
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+  }
+  .hero--title h1 {
+    font-size: 40px;
+  }
+  .hero--title p {
+    font-size: 24px;
+    padding: 20px;
+  }
+  .hero--title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .hero img {
+    margin-top: 67px;
+  }
+  .book4 {
+    position: absolute;
+    right: 139px;
+    top: 837px;
+    width: 100px;
+  }
+  #hero .book3 {
+    position: absolute;
+    top: 752px;
+    left: 0;
+    width: 50px;
+  }
+  #hero .book1 {
+    position: absolute;
+    top: 102px;
+    left: 5px;
+  }
+}
+
+@media (max-width: 576px) {
+  .hero--title h1 {
+    text-align: center;
+  }
+  .hero--title p {
+    text-align: center;
+  }
+  .book4 {
+    right: 76px;
+    top: 887px;
+  }
+  #hero .book1 {
+    top: 206px;
+  }
+}
+
+@media (max-width: 451px) {
+
+}
+
+@media (max-width: 400px) {
+
+}
+
+@media (max-width: 376px) {
+
+
+}
+
+@media (max-width: 320px) {
+}
